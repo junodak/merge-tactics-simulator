@@ -7,7 +7,7 @@ export default function ContactPage() {
   const [language, setLanguage] = useState<Language>(() => {
     // localStorage에서 저장된 언어 불러오기, 없으면 기본값 'ko'
     const savedLanguage = localStorage.getItem('merge-tactics-language');
-    return (savedLanguage === 'ko' || savedLanguage === 'en') ? savedLanguage as Language : 'ko';
+    return (savedLanguage === 'ko' || savedLanguage === 'en') ? savedLanguage as Language : 'en';
   });
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 

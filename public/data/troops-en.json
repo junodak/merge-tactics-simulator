@@ -1,0 +1,207 @@
+[
+  {
+    "name": "Knight",
+    "origin_trait": "Noble",
+    "role_trait": "Juggernaut",
+    "description": "One of the toughest melee fighters in the kingdom",
+    "image": "/images/troops/knight.webp",
+    "elixir": 2,
+    "star_stats": []
+  },
+  {
+    "name": "Archers",
+    "origin_trait": "Clan",
+    "role_trait": "Ranger",
+    "description": "Who needs all that armor when you've got wicked range and hot pink hair?",
+    "image": "/images/troops/archers.webp",
+    "elixir": 2,
+    "star_stats": []
+  },
+  {
+    "name": "Goblins",
+    "origin_trait": "Goblin",
+    "role_trait": "Assassin",
+    "description": "Goblin speed and melee skills eliminate the need for that pesky armor",
+    "image": "/images/troops/goblins.webp",
+    "elixir": 2,
+    "star_stats": []
+  },
+  {
+    "name": "Spear Goblins",
+    "origin_trait": "Goblin",
+    "role_trait": "Thrower",
+    "description": "Spears that slice through wind at such a wide range that he doesn't even need armor",
+    "image": "/images/troops/spear-goblins.webp",
+    "elixir": 2,
+    "star_stats": []
+  },
+  {
+    "name": "Bomber",
+    "origin_trait": "Undead",
+    "role_trait": "Thrower",
+    "description": "Throws a bomb at the nearest enemy, dealing Damage in a 2-Hex Radius",
+    "image": "/images/troops/bomber.webp",
+    "elixir": 2,
+    "star_stats": []
+  },
+  {
+    "name": "Barbarians",
+    "origin_trait": "Clan",
+    "role_trait": "Brawler",
+    "description": "An all-around melee attacker with a mean mustache",
+    "image": "/images/troops/barbarians.webp",
+    "elixir": 2,
+    "star_stats": []
+  },
+  {
+    "name": "Valkyrie",
+    "origin_trait": "Clan",
+    "role_trait": "Avenger",
+    "description": "A melee master who channels her rage into area Damage",
+    "image": "/images/troops/valkyrie.webp",
+    "elixir": 3,
+    "star_stats": []
+  },
+  {
+    "name": "P.E.K.K.A",
+    "origin_trait": "Ace",
+    "role_trait": "Juggernaut",
+    "description": "A slow, but heavily armored melee fighter. Nothing gets past her…",
+    "image": "/images/troops/pekka.webp",
+    "elixir": 3,
+    "star_stats": []
+  },
+  {
+    "name": "Prince",
+    "origin_trait": "Noble",
+    "role_trait": "Brawler",
+    "description": "Combat Start: Charges at the nearest target, dealing double Damage, pushing back enemies and stunning them for 2s",
+    "image": "/images/troops/prince.webp",
+    "elixir": 3,
+    "star_stats": [
+      {"stat_name": "Hex", "values": [2, 3, 4, 5]}
+    ]
+  },
+  {
+    "name": "Giant Skeleton",
+    "origin_trait": "Undead",
+    "role_trait": "Brawler",
+    "description": "Upon defeat, he drops a bomb that explodes after 1.5s, dealing Damage and stunning enemies in his Hex Radius for 2s",
+    "image": "/images/troops/giant-skeleton.webp",
+    "elixir": 3,
+    "star_stats": [
+      {"stat_name": "Bomb Damage", "values": [200, 400, 800, 1600]},
+      {"stat_name": "Hex Radius", "values": [2, 3, 4, 5]}
+    ]
+  },
+  {
+    "name": "Dart Goblin",
+    "origin_trait": "Goblin",
+    "role_trait": "Ranger",
+    "description": "An unarmored ranged attacker who runs fast, shoots far, and chews gum",
+    "image": "/images/troops/dart-goblin.webp",
+    "elixir": 3,
+    "star_stats": []
+  },
+  {
+    "name": "Executioner",
+    "origin_trait": "Ace",
+    "role_trait": "Thrower",
+    "description": "Throws his boomerang axe at the nearest target across several Hexes",
+    "image": "/images/troops/executioner.webp",
+    "elixir": 3,
+    "star_stats": [
+      {"stat_name": "Hex", "values": [1, 2, 3, 4]}
+    ]
+  },
+  {
+    "name": "Princess",
+    "origin_trait": "Noble",
+    "role_trait": "Ranger",
+    "description": "Fires flaming arrows at the farthest enemy, dealing Damage in a 2-Hex Radius",
+    "image": "/images/troops/princess.webp",
+    "elixir": 4,
+    "star_stats": []
+  },
+  {
+    "name": "Mega Knight",
+    "origin_trait": "Ace",
+    "role_trait": "Brawler",
+    "description": "Jumps and strikes the largest group of enemies every few seconds, dealing damage and stunning enemies in its Hex Radius for 2s",
+    "image": "/images/troops/mega-knight.webp",
+    "elixir": 4,
+    "star_stats": [
+      {"stat_name": "Hex", "values": [2, 2, 3, 4]},
+      {"stat_name": "Time", "values": ["6sec", "5sec", "4sec", "3sec"]}
+    ]
+  },
+  {
+    "name": "Royal Ghost",
+    "origin_trait": "Undead",
+    "role_trait": "Assassin",
+    "description": "Becomes invisible for a short time after 3 hits",
+    "image": "/images/troops/royal-ghost.webp",
+    "elixir": 4,
+    "star_stats": [
+      {"stat_name": "invisible Duration", "values": ["1.5sec", "2sec", "2.5sec", "3.5sec"]}
+    ]
+  },
+  {
+    "name": "Bandit",
+    "origin_trait": "Ace",
+    "role_trait": "Avenger",
+    "description": "Dashes to the farthest enemy in 3 Hexes after certain hits, dealing bonus Damage and stunning all in her path for 1s",
+    "image": "/images/troops/bandit.webp",
+    "elixir": 4,
+    "star_stats": [
+      {"stat_name": "Hit Requirement", "values": [3, 2, 1, 1]},
+      {"stat_name": "Bonus Damage", "values": ["+50%", "+50%", "+80%", "+150%"]}
+    ]
+  },
+  {
+    "name": "Goblin Machine",
+    "origin_trait": "Goblin",
+    "role_trait": "Juggernaut",
+    "description": "Fires a rocket at the farthest enemy after certain hits, dealing 50% bonus Damage and stunning them for 1.5s",
+    "image": "/images/troops/goblin-machine.webp",
+    "elixir": 4,
+    "star_stats": [
+      {"stat_name": "Target", "values": [1, 2, 3, 6]},
+      {"stat_name": "Hit Requirement", "values": [3, 2, 1, 1]}
+    ]
+  },
+  {
+    "name": "Skeleton King",
+    "origin_trait": "Undead",
+    "role_trait": "Juggernaut",
+    "description": "Deals damage to enemies in a cone radius and summons a skeleton for each enemy defeated",
+    "image": "/images/troops/skeleton-king.webp",
+    "elixir": 5,
+    "star_stats": [
+      {"stat_name": "Skeleton Star", "values": [1, 2, 3, 4]}
+    ]
+  },
+  {
+    "name": "Golden Knight",
+    "origin_trait": "Noble",
+    "role_trait": "Assassin",
+    "description": "Dashes to the lowest HP enemy after defeating an enemy and deals bonus Damage",
+    "image": "/images/troops/golden-knight.webp",
+    "elixir": 5,
+    "star_stats": [
+      {"stat_name": "Bonus Damage", "values": ["+50%", "+80%", "+150%", "+500%"]}
+    ]
+  },
+  {
+    "name": "Archer Queen",
+    "origin_trait": "Clan",
+    "role_trait": "Avenger",
+    "description": "Fires multiple arrows at her closest enemy. When her HP drops below 50%, she'll turn invisible and deal bonus Damage",
+    "image": "/images/troops/archer-queen.webp",
+    "elixir": 5,
+    "star_stats": [
+      {"stat_name": "Target", "values": [2, 3, 4, 6]},
+      {"stat_name": "Bonus Damage", "values": ["+50%", "+80%", "+150%", "+500%"]}
+    ]
+  }
+] 

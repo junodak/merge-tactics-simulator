@@ -1,0 +1,119 @@
+[
+  {
+    "name": "클랜",
+    "type": "origin",
+    "troops": ["바바리안", "아처", "발키리", "아처 퀸"],
+    "description": "라운드마다 한 번, HP가 50%이 되면 매우 빠르게 회복하고 공격 속도 보너스를 얻습니다.",
+    "effects": [
+      {"count": 2, "effect": "최대 HP 및 공격 속도가 +30% 증가합니다."},
+      {"count": 4, "effect": "클랜 유닛의 최대 HP 및 공격 속도가 +60% 증가하고, 나머지 유닛은 +30% 증가합니다."}
+    ],
+    "image": "/images/traits/clan.webp"
+  },
+  {
+    "name": "노블레스",
+    "type": "origin",
+    "troops": ["기사", "프린스", "프린세스", "골드 나이트"],
+    "description": "전방 유닛은 받는 피해가 감소하고, 후방 유닛은 피해량 보너스를 얻습니다.",
+    "effects": [
+      {"count": 2, "effect": "20%"},
+      {"count": 4, "effect": "40%"}
+    ],
+    "image": "/images/traits/noble.webp"
+  },
+  {
+    "name": "고블린",
+    "type": "origin",
+    "troops": ["고블린", "창 고블린", "다트 고블린", "고블린 머신"],
+    "description": "다음 라운드에 무작위 고블린 하나를 추가로 무료 획득합니다.",
+    "effects": [
+      {"count": 2, "effect": "2엘릭서 고블린을 획득합니다."},
+      {"count": 4, "effect": "3 또는 4엘릭서 고블린을 얻을 확률이 +60% 증가합니다."}
+    ],
+    "image": "/images/traits/goblin.webp"
+  },
+  {
+    "name": "언데드",
+    "type": "origin",
+    "troops": ["폭탄병", "자이언트 해골", "로얄 고스트", "해골 킹"],
+    "description": "전투 시작 시: HP가 가장 높은 적이 저주에 걸리고, 해당 적을 처치하면 내 언데드 유닛이 20%의 피해량 보너스를 얻습니다.",
+    "effects": [
+      {"count": 2, "effect": "적 1개를 저주하고, 최대 HP를 25% 감소시킵니다."},
+      {"count": 4, "effect": "적 2개를 저주하고, 최대 HP를 50% 감소시킵니다."}
+    ],
+    "image": "/images/traits/undead.webp"
+  },
+  {
+    "name": "에이스",
+    "type": "origin",
+    "troops": ["페카", "메가 나이트", "도끼맨", "도둑"],
+    "description": "전투 시작 시: 나의 가장 높은 합체 레벨의 유닛이 캡틴이 됩니다. 캡틴이 적 유닛을 처치하면 팀의 공격 속도가 4초 동안 +20% 증가합니다.",
+    "effects": [
+      {"count": 2, "effect": "캡틴이 30%의 피해량 보너스를 얻습니다."},
+      {"count": 4, "effect": "캡틴이 60%의 피해량 보너스를 얻고, 입힌 피해량의 +30%만큼 HP를 회복합니다."}
+    ],
+    "image": "/images/traits/ace.webp"
+  },
+  {
+    "name": "브롤러",
+    "type": "role",
+    "troops": ["바바리안", "프린스", "자이언트 해골", "메가 나이트"],
+    "description": "기본 효과 : 브롤러 유닛이 보너스 최대 HP를 얻습니다.",
+    "effects": [
+      {"count": 2, "effect": "+30%"},
+      {"count": 4, "effect": "브롤러 유닛은 +60% 증가하고, 나머지 유닛은 +30% 증가합니다."}
+    ],
+    "image": "/images/traits/brawler.webp"
+  },
+  {
+    "name": "원거리형",
+    "type": "role",
+    "troops": ["아처", "다트 고블린", "프린세스"],
+    "description": "원거리형 유닛이 공격할 때마다 공격 속도가 증가하고, 이는 최대 15배까지 중첩됩니다.",
+    "effects": [
+      {"count": 3, "effect": "15%"}
+    ],
+    "image": "/images/traits/ranger.webp"
+  },
+  {
+    "name": "어쌔신",
+    "type": "role",
+    "troops": ["고블린", "로얄 고스트", "골드 나이트"],
+    "description": "전투 시작시: 어쌔신 유닛이 적의 후방으로 도약합니다.",
+    "effects": [
+      {"count": 3, "effect": "치명타의 확률과 피해량이 +35% 증가합니다."}
+    ],
+    "image": "/images/traits/assassin.webp"
+  },
+  {
+    "name": "투척수",
+    "type": "role",
+    "troops": ["창 고블린", "폭탄병", "도끼맨"],
+    "description": "투척수 유닛의 공격 범위가 +1 증가하고, 멀리 있는 대상에게 더 많은 피해를 입힙니다.",
+    "effects": [
+      {"count": 3, "effect": "육각형당 피해량이 +10% 증가합니다."}
+    ],
+    "image": "/images/traits/thrower.webp"
+  },
+  {
+    "name": "탱커",
+    "type": "role",
+    "troops": ["기사", "페카", "고블린 머신", "해골 킹"],
+    "description": "전투 시작시: 탱커 뒤에 있는 유닛이 8초간 보호막을 얻습니다.",
+    "effects": [
+      {"count": 2, "effect": "탱커 유닛이 +30%의 보너스 실드를 얻고, 나머지 유닛은 +15%의 보너스 실드를 얻습니다."},
+      {"count": 4, "effect": "탱커 유닛이 +60%의 보너스 실드를 얻고, 나머지 유닛은 +30%의 보너스 실드를 얻습니다."}
+    ],
+    "image": "/images/traits/juggernaut.webp"
+  },
+  {
+    "name": "어벤저",
+    "type": "role",
+    "troops": ["발키리", "도둑", "아처 퀸"],
+    "description": "어벤저 유닛은 피해량 보너스를 얻고, 마지막으로 남은 여성 유닛은 피해량 보너스를 두배로 얻습니다.",
+    "effects": [
+      {"count": 3, "effect": "+30%"}
+    ],
+    "image": "/images/traits/avenger.webp"
+  }
+] 

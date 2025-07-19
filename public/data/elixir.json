@@ -1,0 +1,22 @@
+[
+  {
+    "elixir": 2,
+    "color": "#59ff56",
+    "image": "/images/elixir/elixir_2.png"
+  },
+  {
+    "elixir": 3,
+    "color": "#06bfca",
+    "image": "/images/elixir/elixir_3.png"
+  },
+  {
+    "elixir": 4,
+    "color": "#d117f2",
+    "image": "/images/elixir/elixir_4.png"
+  },
+  {
+    "elixir": 5,
+    "color": "#f2d639",
+    "image": "/images/elixir/elixir_5.png"
+  }
+] 

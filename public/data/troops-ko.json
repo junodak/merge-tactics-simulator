@@ -1,0 +1,207 @@
+[
+  {
+    "name": "기사",
+    "origin_trait": "노블레스",
+    "role_trait": "탱커",
+    "description": "왕국에서 가장 강력한 근접 전사 중 하나입니다.",
+    "image": "/images/troops/knight.webp",
+    "elixir": 2,
+    "star_stats": []
+  },
+  {
+    "name": "아처",
+    "origin_trait": "클랜",
+    "role_trait": "원거리형",
+    "description": "엄청난 사거리와 톡톡 튀는 핫핑크색 머리카락의 소유자입니다. 갑옷은 필요없어요!",
+    "image": "/images/troops/archers.webp",
+    "elixir": 2,
+    "star_stats": []
+  },
+  {
+    "name": "고블린",
+    "origin_trait": "고블린",
+    "role_trait": "어쌔신",
+    "description": "뛰어난 속도와 근접 공격 기술 덕분에 성가신 갑옷을 입을 필요가 없습니다.",
+    "image": "/images/troops/goblins.webp",
+    "elixir": 2,
+    "star_stats": []
+  },
+  {
+    "name": "창 고블린",
+    "origin_trait": "고블린",
+    "role_trait": "투척수",
+    "description": "갑옷 따위는 필요 없을 만큼 먼 거리에서 바람을 가르는 창을 날립니다.",
+    "image": "/images/troops/spear-goblins.webp",
+    "elixir": 2,
+    "star_stats": []
+  },
+  {
+    "name": "폭탄병",
+    "origin_trait": "언데드",
+    "role_trait": "투척수",
+    "description": "가장 가까운 적에게 폭탄을 던져 2칸 반경 내에 피해를 줍니다.",
+    "image": "/images/troops/bomber.webp",
+    "elixir": 2,
+    "star_stats": []
+  },
+  {
+    "name": "바바리안",
+    "origin_trait": "클랜",
+    "role_trait": "브롤러",
+    "description": "멋진 콧수염을 가진 전방위 근접 공격 유닛입니다.",
+    "image": "/images/troops/barbarians.webp",
+    "elixir": 2,
+    "star_stats": []
+  },
+  {
+    "name": "발키리",
+    "origin_trait": "클랜",
+    "role_trait": "어벤저",
+    "description": "분노의 힘으로 광역 피해를 입히는 근접 공격의 달인입니다.",
+    "image": "/images/troops/valkyrie.webp",
+    "elixir": 3,
+    "star_stats": []
+  },
+  {
+    "name": "P.E.K.K.A",
+    "origin_trait": "에이스",
+    "role_trait": "탱커",
+    "description": "느리지만 경고한 갑옷을 두른 근접 전사입니다. 그 무엇도 그녀를 뚫고 지나갈 수 없을 거에요...",
+    "image": "/images/troops/pekka.webp",
+    "elixir": 3,
+    "star_stats": []
+  },
+  {
+    "name": "프린스",
+    "origin_trait": "노블레스",
+    "role_trait": "브롤러",
+    "description": "전투 시작 시: 가장 가까운 대상에게 돌진하여 두 배의 피해를 입히고 적을 밀어내며 2초 동안 기절시킵니다.",
+    "image": "/images/troops/prince.webp",
+    "elixir": 3,
+    "star_stats": [
+      {"stat_name": "육각형", "values": [2, 3, 4, 5]}
+    ]
+  },
+  {
+    "name": "자이언트 해골",
+    "origin_trait": "언데드",
+    "role_trait": "브롤러",
+    "description": "처치치 시, 1.5초 후 폭발하는 폭탄을 떨어뜨려 2초 동안 육각형 반경 내의 적에게 피해를 입히고 기절시킵니다.",
+    "image": "/images/troops/giant-skeleton.webp",
+    "elixir": 3,
+    "star_stats": [
+      {"stat_name": "폭탄 피해량", "values": [200, 400, 800, 1600]},
+      {"stat_name": "육각형 반경", "values": [2, 3, 4, 5]}
+    ]
+  },
+  {
+    "name": "다트 고블린",
+    "origin_trait": "고블린",
+    "role_trait": "원거리형",
+    "description": "무장하지 않은 채 껌을 씹으며 빠르게 달리고, 멀리까지 다트를 쏘는 원거리 공격수입니다.",
+    "image": "/images/troops/dart-goblin.webp",
+    "elixir": 3,
+    "star_stats": []
+  },
+  {
+    "name": "도끼맨",
+    "origin_trait": "에이스",
+    "role_trait": "투척수",
+    "description": "여러 칸에 걸쳐 가장 가까운 대상에게 부메랑 도끼를 던집니다.",
+    "image": "/images/troops/executioner.webp",
+    "elixir": 3,
+    "star_stats": [
+      {"stat_name": "육각형", "values": [1, 2, 3, 4]}
+    ]
+  },
+  {
+    "name": "프린세스",
+    "origin_trait": "노블레스",
+    "role_trait": "원거리형",
+    "description": "가장 먼 적에게 불화살을 발사하여 2칸 반경내에 피해를 입힙니다.",
+    "image": "/images/troops/princess.webp",
+    "elixir": 4,
+    "star_stats": []
+  },
+  {
+    "name": "메가 나이트",
+    "origin_trait": "에이스",
+    "role_trait": "브롤러",
+    "description": "몇 초마다 점프해 가장 큰 적 무리를 강타하여 피해를 입히고, 2초 동안 육각형 반경 내의 적을 기절시킵니다.",
+    "image": "/images/troops/mega-knight.webp",
+    "elixir": 4,
+    "star_stats": [
+      {"stat_name": "육각형", "values": [2, 2, 3, 4]},
+      {"stat_name": "시간", "values": ["6초", "5초", "4초", "3초"]}
+    ]
+  },
+  {
+    "name": "로얄 고스트",
+    "origin_trait": "언데드",
+    "role_trait": "어쌔신",
+    "description": "3회 공격 후 잠시 투명화됩니다.",
+    "image": "/images/troops/royal-ghost.webp",
+    "elixir": 4,
+    "star_stats": [
+      {"stat_name": "투명 지속 시간", "values": ["1.5초", "2초", "2.5초", "3.5초"]}
+    ]
+  },
+  {
+    "name": "도둑",
+    "origin_trait": "에이스",
+    "role_trait": "어벤저",
+    "description": "특정 공격 후 3칸 중 가장 멀리 있는 적에게 돌진하여 추가 피해를 주고, 경로에 있는 모든 적을 1초동안 기절시킵니다.",
+    "image": "/images/troops/bandit.webp",
+    "elixir": 4,
+    "star_stats": [
+      {"stat_name": "명중 요건", "values": [3, 2, 1, 1]},
+      {"stat_name": "피해량 보너스", "values": ["+50%", "+50%", "+80%", "+150%"]}
+    ]
+  },
+  {
+    "name": "고블린 머신",
+    "origin_trait": "고블린",
+    "role_trait": "탱커",
+    "description": "특정 타격 후 가장 먼 거리에 있는 적에게 로켓을 발사하여 50%의 보너스 피해를 주고 명중한 적을 1.5초 동안 기절시킵니다.",
+    "image": "/images/troops/goblin-machine.webp",
+    "elixir": 4,
+    "star_stats": [
+      {"stat_name": "목표물", "values": [1, 2, 3, 6]},
+      {"stat_name": "명중 요건", "values": [3, 2, 1, 1]}
+    ]
+  },
+  {
+    "name": "해골 킹",
+    "origin_trait": "언데드",
+    "role_trait": "탱커",
+    "description": "원뿔 반경 내의 적에게 피해를 입히고, 물리친 적 하나당 해골 하나를 소환합니다.",
+    "image": "/images/troops/skeleton-king.webp",
+    "elixir": 5,
+    "star_stats": [
+      {"stat_name": "해골 별 등급", "values": [1, 2, 3, 4]}
+    ]
+  },
+  {
+    "name": "골드 나이트",
+    "origin_trait": "노블레스",
+    "role_trait": "어쌔신",
+    "description": "적을 처치한 후, HP가 가장 낮은 적에게 돌진하여 추가 피해를 줍니다.",
+    "image": "/images/troops/golden-knight.webp",
+    "elixir": 5,
+    "star_stats": [
+      {"stat_name": "피해량 보너스", "values": ["+50%", "+80%", "+150%", "+500%"]}
+    ]
+  },
+  {
+    "name": "아처 퀸",
+    "origin_trait": "클랜",
+    "role_trait": "어벤저",
+    "description": "가장 가까운 적에게 여러 개의 화살을 발사하고 HP가 50% 미만으로 떨어지면 투명화되어 추가 피해를 줍니다.",
+    "image": "/images/troops/archer-queen.webp",
+    "elixir": 5,
+    "star_stats": [
+      {"stat_name": "목표물", "values": [2, 3, 4, 6]},
+      {"stat_name": "피해량 보너스", "values": ["+50%", "+80%", "+150%", "+500%"]}
+    ]
+  }
+] 

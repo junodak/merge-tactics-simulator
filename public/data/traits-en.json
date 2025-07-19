@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Clan",
+    "type": "origin",
+    "troops": ["Barbarians", "Archers", "Valkyrie", "Archer Queen"],
+    "description": "Combat Start:\nOnce per round, Clans rapidly heal and gain bonus Hit Speed at 50% HP",
+    "effects": [
+      {"count": 2, "effect": "+30% of max HP and Hit Speed"},
+      {"count": 4, "effect": "+60% of max HP and Hit Speed for Clans, +30% for the team"}
+    ],
+    "image": "/images/traits/clan.webp"
+  },
+  {
+    "name": "Noble",
+    "type": "origin",
+    "troops": ["Knight", "Prince", "Princess", "Golden Knight"],
+    "description": "Combat Start:\nFrontline Troops take less Damage while backline Troops gain bonus Damage",
+    "effects": [
+      {"count": 2, "effect": "20%"},
+      {"count": 4, "effect": "40%"}
+    ],
+    "image": "/images/traits/noble.webp"
+  },
+  {
+    "name": "Goblin",
+    "type": "origin",
+    "troops": ["Goblins", "Spear Goblins", "Dart Goblin", "Goblin Machine"],
+    "description": "Combat Start:\nYou'll get an extra random Goblin for free next round",
+    "effects": [
+      {"count": 2, "effect": "Gain a 2-Elixir Goblin"},
+      {"count": 4, "effect": "+60% chance of gaining a 3 or 4-Elixir Goblin"}
+    ],
+    "image": "/images/traits/goblin.webp"
+  },
+  {
+    "name": "Undead",
+    "type": "origin",
+    "troops": ["Bomber", "Giant Skeleton", "Royal Ghost", "Skeleton King"],
+    "description": "Combat Start:\nWhen battle starts, the enemy with the highest HP is cursed. If Undead defeat the cursed enemy, they gain +20% Damage.",
+    "effects": [
+      {"count": 2, "effect": "Curse 1 enemy, reduce max HP by 25%"},
+      {"count": 4, "effect": "Curse 2 enemies, reduce max HP by 50%"}
+    ],
+    "image": "/images/traits/undead.webp"
+  },
+  {
+    "name": "Ace",
+    "type": "origin",
+    "troops": ["P.E.K.K.A", "Mega Knight", "Executioner", "Bandit"],
+    "description": "Combat Start:\nHighest Merge Level Troop is Captain. When the Captain defeats enemy Troops, your team gains +20% Hit Speed (4s)",
+    "effects": [
+      {"count": 2, "effect": "Captain gains 30% bonus Damage"},
+      {"count": 4, "effect": "Captain gains 60% bonus Damage and gains +30% HP of Damage dealt"}
+    ],
+    "image": "/images/traits/ace.webp"
+  },
+  {
+    "name": "Brawler",
+    "type": "role",
+    "troops": ["Barbarians", "Prince", "Giant Skeleton", "Mega Knight"],
+    "description": "Combat Start:\nBrawlers gain bonus max HP",
+    "effects": [
+      {"count": 2, "effect": "+30%"},
+      {"count": 4, "effect": "+60% for Brawlers, +30% for the team"}
+    ],
+    "image": "/images/traits/brawler.webp"
+  },
+  {
+    "name": "Ranger",
+    "type": "role",
+    "troops": ["Archers", "Dart Goblin", "Princess"],
+    "description": "Combat Start:\nRangers gain Hit Speed per attack, stacking up to 15x",
+    "effects": [
+      {"count": 3, "effect": "15%"}
+    ],
+    "image": "/images/traits/ranger.webp"
+  },
+  {
+    "name": "Assassin",
+    "type": "role",
+    "troops": ["Goblins", "Royal Ghost", "Golden Knight"],
+    "description": "Combat Start:\nAssassins will leap to the enemy's backline Troops",
+    "effects": [
+      {"count": 3, "effect": "+35% Critical Chance and Critical Damage"}
+    ],
+    "image": "/images/traits/assassin.webp"
+  },
+  {
+    "name": "Thrower",
+    "type": "role",
+    "troops": ["Spear Goblins", "Bomber", "Executioner"],
+    "description": "Combat Start:\nThrowers gain +1 attack range and deal more damage to distant targets.",
+    "effects": [
+      {"count": 3, "effect": "+10% damage per hex"}
+    ],
+    "image": "/images/traits/thrower.webp"
+  },
+  {
+    "name": "Juggernaut",
+    "type": "role",
+    "troops": ["Knight", "P.E.K.K.A", "Goblin Machine", "Skeleton King"],
+    "description": "Combat Start:\nTroops behind Juggernauts gain an 8s Shield",
+    "effects": [
+      {"count": 2, "effect": "+15% bonus Shield, Juggernauts + 30%"},
+      {"count": 4, "effect": "+30% bonus Shield, Juggernauts + 60%"}
+    ],
+    "image": "/images/traits/juggernaut.webp"
+  },
+  {
+    "name": "Avenger",
+    "type": "role",
+    "troops": ["Valkyrie", "Bandit", "Archer Queen"],
+    "description": "Combat Start:\nAvengers gain bonus Damage, with the last woman standing gaining double Damage",
+    "effects": [
+      {"count": 3, "effect": "+30%"}
+    ],
+    "image": "/images/traits/avenger.webp"
+  }
+] 

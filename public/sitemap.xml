@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- 메인 페이지 -->
+  <url>
+    <loc>https://tacticsmerge.com/</loc>
+    <lastmod>2024-01-01T00:00:00Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- 법적 페이지들 -->
+  <url>
+    <loc>https://tacticsmerge.com/privacy</loc>
+    <lastmod>2024-01-01T00:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>https://tacticsmerge.com/terms</loc>
+    <lastmod>2024-01-01T00:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>https://tacticsmerge.com/contact</loc>
+    <lastmod>2024-01-01T00:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  
+  <!-- 유닛 상세 페이지들 -->
+  <url>
+    <loc>https://tacticsmerge.com/troop/knight</loc>
+    <lastmod>2024-01-01T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://tacticsmerge.com/troop/archers</loc>
+    <lastmod>2024-01-01T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://tacticsmerge.com/troop/goblins</loc>
+    <lastmod>2024-01-01T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://tacticsmerge.com/troop/spear-goblins</loc>
+    <lastmod>2024-01-01T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://tacticsmerge.com/troop/bomber</loc>
+    <lastmod>2024-01-01T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://tacticsmerge.com/troop/barbarians</loc>
+    <lastmod>2024-01-01T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://tacticsmerge.com/troop/valkyrie</loc>
+    <lastmod>2024-01-01T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://tacticsmerge.com/troop/pekka</loc>
+    <lastmod>2024-01-01T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://tacticsmerge.com/troop/prince</loc>
+    <lastmod>2024-01-01T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://tacticsmerge.com/troop/giant-skeleton</loc>
+    <lastmod>2024-01-01T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://tacticsmerge.com/troop/dart-goblin</loc>
+    <lastmod>2024-01-01T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://tacticsmerge.com/troop/executioner</loc>
+    <lastmod>2024-01-01T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://tacticsmerge.com/troop/princess</loc>
+    <lastmod>2024-01-01T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://tacticsmerge.com/troop/mega-knight</loc>
+    <lastmod>2024-01-01T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://tacticsmerge.com/troop/royal-ghost</loc>
+    <lastmod>2024-01-01T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://tacticsmerge.com/troop/bandit</loc>
+    <lastmod>2024-01-01T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://tacticsmerge.com/troop/goblin-machine</loc>
+    <lastmod>2024-01-01T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://tacticsmerge.com/troop/skeleton-king</loc>
+    <lastmod>2024-01-01T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://tacticsmerge.com/troop/golden-knight</loc>
+    <lastmod>2024-01-01T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://tacticsmerge.com/troop/archer-queen</loc>
+    <lastmod>2024-01-01T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+</urlset> 

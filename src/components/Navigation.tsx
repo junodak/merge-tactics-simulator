@@ -39,7 +39,7 @@ export default function Navigation({ language, onLanguageChange, isMobile, onHom
       
       {/* 언어 선택 */}
       <div className="flex items-center gap-2">
-        <span className="text-white text-sm hidden md:block">언어:</span>
+        <span className="text-white text-sm hidden md:block">{language === 'ko' ? '언어' : 'Language'}:</span>
         <select 
           value={language}
           onChange={(e) => onLanguageChange(e.target.value as Language)}

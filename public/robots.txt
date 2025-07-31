@@ -8,7 +8,7 @@ Sitemap: https://tacticsmerge.com/sitemap.xml
 Crawl-delay: 1
 
 # Allow all important pages
-Allow: /troop/*
+Allow: /troops/*
 Allow: /deck/*
 Allow: /privacy
 Allow: /terms 
